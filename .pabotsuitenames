@@ -1,0 +1,7 @@
+datasources:7445c06ef27447edcc005c5db15aae5138b08ca4
+commandlineoptions:9f8598a690c7367accf83ead504756ddd374acc9
+suitesfrom:no-suites-from-option
+file:90787d6ee84ae739153ef454b56f993b19b44ef3
+--suite Suites.Suites 1 Search Product
+--suite Suites.Suites 2 Train Ticket
+--suite Suites.Suites 3 Pulsa

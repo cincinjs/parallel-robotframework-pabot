@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20190314 14:54:30.586" generator="Robot 3.0.4 (Python 2.7.15 on win32)">
+<suite id="s1" name="Suites">
+<suite source="C:\Users\sc_id\Documents\GitHub\parallel-roboframework-pabot\suites_3_pulsa.robot" id="s1-s1" name="Suites 3 Pulsa">
+<test id="s1-s1-t1" name="Search using keyword">
+<kw name="Go to tokopedia pulsa page">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+</arguments>
+<msg timestamp="20190314 14:54:30.892" level="INFO">Opening browser 'chrome' to base url 'https://www.tokopedia.com/pulsa/'.</msg>
+<status status="PASS" endtime="20190314 14:54:43.484" starttime="20190314 14:54:30.891"></status>
+</kw>
+<status status="PASS" endtime="20190314 14:54:43.485" starttime="20190314 14:54:30.891"></status>
+</kw>
+<kw name="Verify page">
+<kw name="Element Should Contain" library="SeleniumLibrary">
+<doc>Verifies that element ``locator`` contains text ``expected``.</doc>
+<arguments>
+<arg>id=category-title</arg>
+<arg>${expected_page}</arg>
+</arguments>
+<msg timestamp="20190314 14:54:43.733" level="INFO">Element 'id=category-title' contains text 'Beli Pulsa'.</msg>
+<status status="PASS" endtime="20190314 14:54:43.734" starttime="20190314 14:54:43.485"></status>
+</kw>
+<status status="PASS" endtime="20190314 14:54:43.734" starttime="20190314 14:54:43.485"></status>
+</kw>
+<status status="PASS" endtime="20190314 14:54:43.734" critical="yes" starttime="20190314 14:54:30.890"></status>
+</test>
+<kw type="teardown" name="Close All Browsers" library="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" endtime="20190314 14:54:47.901" starttime="20190314 14:54:43.736"></status>
+</kw>
+<status status="PASS" endtime="20190314 14:54:47.901" starttime="20190314 14:54:30.615"></status>
+</suite>
+<status status="PASS" endtime="20190314 14:54:51.702" starttime="20190314 14:54:30.590"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Suites" pass="1">Suites</stat>
+<stat fail="0" id="s1-s1" name="Suites 3 Pulsa" pass="1">Suites.Suites 3 Pulsa</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

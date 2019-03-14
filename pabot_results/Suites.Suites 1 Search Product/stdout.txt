@@ -1,0 +1,16 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Suites 1 Search Product                                                
+==============================================================================
+Search using keyword                                                  | PASS |
+------------------------------------------------------------------------------
+Suites.Suites 1 Search Product                                        | PASS |
+1 critical test, 1 passed, 0 failed
+1 test total, 1 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+1 critical test, 1 passed, 0 failed
+1 test total, 1 passed, 0 failed
+==============================================================================
+Output:  C:\Users\sc_id\Documents\GitHub\parallel-roboframework-pabot\pabot_results\Suites.Suites 1 Search Product\output.xml
