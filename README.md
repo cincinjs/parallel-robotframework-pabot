@@ -19,7 +19,7 @@ How many parallel executors to use (default max of 2 and cpu count)
 
 
 ### Result :
-
+![result](https://user-images.githubusercontent.com/3975130/54346195-4689cf80-4677-11e9-9b1a-4c8bc32ca51c.png)
 
 
 
